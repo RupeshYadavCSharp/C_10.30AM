@@ -8,20 +8,15 @@ int main()
 
     if(ch >=65 && ch <=90)
     {
-        printf("capital letter ");
+        ch = ch + 32;
+        printf("%c",ch);
     }
     else if(ch >=97 && ch<=122)
     {
-        printf("small letter ");
+        ch = ch - 32;
+        printf("%c",ch);
     }
-    else if(ch >=48 && ch<=57)
-    {
-        printf("number");
-    }
-    else
-    {
-        printf("special symbol");
-    }
+    
 
     return 0;
 }
