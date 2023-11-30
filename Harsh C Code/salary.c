@@ -21,7 +21,6 @@ int main()
     {
         tax= sal*0.2;
         printf("%f\n", tax);
-
     }
 
     else
@@ -31,8 +30,4 @@ int main()
     }
 
     return 0;
-
-
-
-
 }
