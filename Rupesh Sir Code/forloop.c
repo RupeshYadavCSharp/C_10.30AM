@@ -7,7 +7,7 @@ int main()
     {
         if(i ==  5)
         {
-            return;
+            return 0;
         }
         else
         {
